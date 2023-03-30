@@ -1,4 +1,12 @@
 /* variablesCustom.css */
+
+@import "./mdx/01_base/color.css";
+@import "./mdx/01_base/font.css";
+
 :root {
-    
+    --button-primary-background-color-disabled: var(--mdx-base-color-orange-400);
+    --button-primary-background-color-hover: var(--mdx-base-color-orange-650);
+    --button-primary-background-color: var(--mdx-base-color-orange-500);
+    --button-primary-color: var(--mdx-base-color-global-white);
+    --button-primary-font-family: var(--mdx-base-font-family-text);
 }

@@ -1,7 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+#/node_modules/*
+#!/node_modules/@migros/mdx-design-tokens/dist/
 /bower_components
 
 # IDEs and editors
@@ -11,7 +12,6 @@
 *.launch
 .settings/
 .vs/
-
 
 #System Files
 .DS_Store
